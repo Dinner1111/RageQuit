@@ -1,11 +1,10 @@
 name: RageQuit
 main: io.github.Dinner1111.RageQuit.RageQuitPlugin
-version: 1.1.0.7
+version: 1.1.0.9
 
 commands:
   rq:
     description: Rage quit.
     usage: /rq
     permission: RageQuit.Rage
-    permission: RageQuit.Rage.Console
     permission-message: Sorry, you can't rage quit.
