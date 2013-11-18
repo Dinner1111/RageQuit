@@ -10,7 +10,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class RageQuitPlugin extends JavaPlugin implements CommandExecutor {
-<<<<<<< HEAD
 	int task;
 	int n = 0;
 	ChatThemes ct = new ChatThemes(this);
@@ -84,7 +83,6 @@ public class RageQuitPlugin extends JavaPlugin implements CommandExecutor {
             }
         }, 0, 40);
 	}
-=======
     int task;
     int n = 0;
     @Override
@@ -156,5 +154,4 @@ public class RageQuitPlugin extends JavaPlugin implements CommandExecutor {
             }
         }, 0, 40);
     }
->>>>>>> d0f5ba8260ff1363a6be8c64067ccef4065124c1
 }
